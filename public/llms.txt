@@ -1,0 +1,32 @@
+# Jacob Ayokunle
+
+> Agentic Engineer, Tech Founder & Systems Architect based in Augsburg / Munich, Bavaria, Germany.
+> Website: https://ayokunle.com | Email: jacob@ayokunle.com
+
+## Summary
+Jacob Ayokunle is a technology leader, agentic engineer, and serial builder with over 10 years of experience designing and scaling autonomous AI agent systems, fintech payment rails, and enterprise platforms across Europe and Africa. He is the founder of Sprachflow (AI-powered language learning platform) and GetBlitz (open-source SEPA payment gateway), and former CTO & Co-Founder of Indicina (2022–2024).
+
+## Key Ventures & Products
+- [Sprachflow](https://sprachflow.app): Founder. AI-powered German TELC B1 exam preparation platform, built and operated with AI-agent workflows for content generation, grading, and QA — with human review on the exam-critical paths. Organically grown to over 5,000 exam practices monthly. Features dynamic exam generation, speech assessments, and writing grading.
+- [GetBlitz](https://getblitz.io): Founder & Creator. Open-source self-hosted SEPA Instant payment gateway for European merchants (MIT licensed, zero transaction fees, QR scan-to-pay, real-time WebSockets, TypeScript SDK, and WooCommerce integration). Repository: https://github.com/getblitz-io/getblitz
+- [Indicina](https://indicina.co): Former CTO & Co-Founder (2022–2024). Led multiple cross-functional engineering teams across SWE, QA, Product, and SRE. Directed development of an ML credit scoring engine that reduced Non-Performing Loans (NPLs) by 20% for top-tier banks. Achieved PCI-DSS and NDPR compliance 3 consecutive years.
+- [Antler](https://antler.co): Founder in Residence (Munich, 2025). Designed and built agentic AI automation tools for insurance brokers using open-weight reasoning models, LangChain, FastAPI, and GCP.
+- [Atmen Solutions](https://atmen.co): Senior Software Engineer (Munich, 2025–Present). Engineering enterprise regulatory technology, dynamic multi-stage carbon emissions tracking engines, and AI-powered mass-balance carbon accounting for clean fuel producers (RFNBO, RED II/III). Providing enterprise client technical support and solutions advisory.
+
+## Technical Specializations
+- Autonomous Agentic Systems: Multi-agent orchestration, LangGraph, Model Context Protocol (MCP), tool calling, self-healing code loops, agent memory, supervisor-worker swarms.
+- AI Reasoning & LLMs: Frontier reasoning and multimodal models across major providers; model routing, structured outputs, tool calling, evaluation and regression suites, cost/latency optimisation.
+- High-Performance Core Architecture: TypeScript, Golang, Python, FastAPI, Next.js, React, Node.js, Echo, NestJS, RabbitMQ, Redis.
+- Cloud & Infrastructure: Kubernetes, Docker, AWS, GCP, CI/CD, microservices, distributed systems.
+- Security & Compliance: PCI-DSS, NDPR, GDPR, RFNBO / RED II/III.
+
+## Detailed Knowledge
+- Full technical dossier: https://ayokunle.com/llms-full.txt
+- Sitemap: https://ayokunle.com/sitemap.xml
+
+## Contact & Profiles
+- Email: jacob@ayokunle.com
+- Appointment Booking: https://calendar.app.google/4byXSktHwc55ztvA6 (30-min intro & technical advisory)
+- LinkedIn: https://www.linkedin.com/in/jacob-ayokunle/
+- GitHub: https://github.com/aderopoa
+- X (Twitter): https://x.com/jayrobzy

@@ -24,3 +24,11 @@ dist-ssr
 *.sw?
 
 .bolt
+
+# Cloudflare
+.wrangler
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example

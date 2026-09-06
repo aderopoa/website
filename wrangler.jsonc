@@ -1,0 +1,61 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "ayokunle-com",
+	// One Worker serves the whole site: the Vite build in ./dist as static
+	// assets, plus the /api/* routes in worker/src/index.ts on the same origin.
+	"main": "worker/src/index.ts",
+	"compatibility_date": "2026-09-01",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"observability": {
+		"enabled": true
+	},
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS",
+		// Unknown paths (/imprint, /privacy) get index.html with a 200 so the
+		// client-side router can resolve them.
+		"not_found_handling": "single-page-application",
+		// Everything else is served asset-first without invoking the Worker.
+		"run_worker_first": [
+			"/api/*"
+		]
+	},
+	"vars": {
+		// Same-origin requests carry the site origin; localhost covers `wrangler dev`.
+		"ALLOWED_ORIGINS": "https://ayokunle.com,https://www.ayokunle.com,http://localhost:8787,http://localhost:5173",
+		// `openrouter/free` is OpenRouter's meta-router: it picks whichever free
+		// model is currently available, so we never pin a free id that gets retired.
+		// Pin a specific id here if you want deterministic output quality.
+		"OPENROUTER_MODEL": "openrouter/free",
+		// Optional comma-separated OpenRouter routing fallbacks, tried in order if
+		// the primary model is unavailable or rate-limited upstream. Not needed with
+		// the meta-router; leave empty.
+		"OPENROUTER_FALLBACK_MODELS": ""
+	},
+	// Rate limiting: the native Workers Rate Limiting binding only supports 10s
+	// and 60s windows, so we use a KV counter with an hourly bucket. Create it with
+	//   npx wrangler kv namespace create RATE_LIMIT_KV
+	// then paste the returned id below and uncomment. Without it the API is
+	// unthrottled — do not go live with a paid OpenRouter key without this.
+	// "kv_namespaces": [
+	//   { "binding": "RATE_LIMIT_KV", "id": "<paste-id-from-wrangler-kv-namespace-create>" }
+	// ],
+	// Custom domain. Requires ayokunle.com's DNS to be on Cloudflare; Wrangler
+	// creates the DNS record and certificate for you.
+	// "routes": [
+	//   { "pattern": "ayokunle.com", "custom_domain": true },
+	//   { "pattern": "www.ayokunle.com", "custom_domain": true }
+	// ],
+	// OPENROUTER_API_KEY is a secret, never a var:
+	//   npx wrangler secret put OPENROUTER_API_KEY
+	"keep_vars": false,
+	"kv_namespaces": [
+		{
+			"binding": "RATE_LIMIT_KV",
+			"id": "299351f70e3745ceb52d6a3233ad93c8",
+			"remote": true
+		}
+	]
+}

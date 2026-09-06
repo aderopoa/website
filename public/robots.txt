@@ -1,0 +1,9 @@
+# Allow search engines and generative AI agents
+User-agent: *
+Allow: /
+
+# Direct AI Agents to LLM Context
+# llms.txt standard: https://ayokunle.com/llms.txt
+# llms-full.txt standard: https://ayokunle.com/llms-full.txt
+
+Sitemap: https://ayokunle.com/sitemap.xml
