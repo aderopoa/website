@@ -46,7 +46,7 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onBack }) => {
   return (
     <div className="min-h-screen py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <Helmet defer={false}>
-        <title>Privacy Policy / Datenschutzerklärung | Jacob Ayokunle • JAyokunle Enterprise UG</title>
+        <title>Privacy Policy / Datenschutzerklärung | Jacob Ayokunle</title>
         <meta
           name="description"
           content="Privacy policy (Datenschutzerklärung) for ayokunle.com: hosting on Cloudflare Workers, no cookies or tracking, self-hosted fonts, optional AI assistant, and your GDPR rights."
@@ -83,8 +83,7 @@ export const PrivacyPage: React.FC<PrivacyPageProps> = ({ onBack }) => {
           title="1. Controller (Verantwortlicher)"
         >
           <p>
-            JAyokunle Enterprise UG (haftungsbeschränkt), represented by its managing director Jacob Ayokunle, Augsburg,
-            Germany. The full postal address is listed in the{' '}
+            Jacob Ayokunle (private individual), Augsburg, Germany. The full postal address is listed in the{' '}
             <a href="#imprint" className={LINK_CLASS}>
               Imprint
             </a>

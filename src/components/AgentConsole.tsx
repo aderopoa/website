@@ -60,8 +60,8 @@ const PRESET_PROMPTS = [
     query: 'Which languages and stack does Jacob use?',
   },
   {
-    label: 'Book an intro or advisory call',
-    query: 'How do I book a 30-minute intro or technical advisory call with Jacob?',
+    label: 'Book an intro call',
+    query: 'How do I book a 30-minute intro call with Jacob?',
   },
   {
     label: 'Location & availability',

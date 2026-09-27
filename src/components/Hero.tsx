@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
             Augsburg & Munich, Germany
           </span>
           <span className="text-emerald-500/40">•</span>
-          <span>Open to advisory & co-building</span>
+          <span>Open to co-building & speaking</span>
         </div>
 
         {/* Avatar with Glow Ring */}

@@ -30,7 +30,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenImprint, onOpenPrivacy }) 
   return (
     <footer className="border-t border-slate-200/80 dark:border-slate-800/80 bg-white/60 dark:bg-slate-950/60 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-        {/* Left Column: Branding & Company Entity */}
+        {/* Left Column: Branding */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <div className="flex items-center gap-2 mb-1">
             <span className="font-bold text-slate-900 dark:text-white text-base">
@@ -44,7 +44,15 @@ export const Footer: React.FC<FooterProps> = ({ onOpenImprint, onOpenPrivacy }) 
             Augsburg & Munich, Germany • Founder @ Sprachflow & GetBlitz • former CTO @ Indicina
           </p>
           <p className="text-[11px] text-slate-400 dark:text-slate-500">
-            A project of <span className="font-medium text-slate-600 dark:text-slate-400">JAyokunle Enterprise UG (haftungsbeschränkt)</span>
+            Personal website • Managing Director @{' '}
+            <a
+              href="https://jayokunle.com"
+              target="_blank"
+              rel="noopener"
+              className="font-medium text-slate-600 dark:text-slate-400 hover:text-emerald-500 dark:hover:text-emerald-400 underline decoration-dotted transition-colors"
+            >
+              JAyokunle ↗
+            </a>
           </p>
         </div>
 
@@ -104,7 +112,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenImprint, onOpenPrivacy }) 
         {/* Right Column: Back to top & Copyright */}
         <div className="flex items-center gap-4">
           <span className="text-xs text-slate-500 dark:text-slate-400">
-            © {new Date().getFullYear()} JAyokunle Enterprise UG
+            © {new Date().getFullYear()} Jacob Ayokunle
           </span>
           <button
             onClick={scrollToTop}

@@ -11,6 +11,7 @@ Jacob Ayokunle is a technology leader, agentic engineer, and serial builder with
 - [GetBlitz](https://getblitz.io): Founder & Creator. Open-source self-hosted SEPA Instant payment gateway for European merchants (MIT licensed, zero transaction fees, QR scan-to-pay, real-time WebSockets, TypeScript SDK, and WooCommerce integration). Repository: https://github.com/getblitz-io/getblitz
 - [Indicina](https://indicina.co): Former CTO & Co-Founder (2022–2024). Led multiple cross-functional engineering teams across SWE, QA, Product, and SRE. Directed development of an ML credit scoring engine that reduced Non-Performing Loans (NPLs) by 20% for top-tier banks. Achieved PCI-DSS and NDPR compliance 3 consecutive years.
 - [Antler](https://antler.co): Founder in Residence (Munich, 2025). Designed and built agentic AI automation tools for insurance brokers using open-weight reasoning models, LangChain, FastAPI, and GCP.
+- [JAyokunle](https://jayokunle.com): Managing Director. Company matters and commercial services live at jayokunle.com; ayokunle.com is Jacob's personal website.
 - [Atmen Solutions](https://atmen.co): Senior Software Engineer (Munich, 2025–Present). Engineering enterprise regulatory technology, dynamic multi-stage carbon emissions tracking engines, and AI-powered mass-balance carbon accounting for clean fuel producers (RFNBO, RED II/III). Providing enterprise client technical support and solutions advisory.
 
 ## Technical Specializations
@@ -26,7 +27,7 @@ Jacob Ayokunle is a technology leader, agentic engineer, and serial builder with
 
 ## Contact & Profiles
 - Email: jacob@ayokunle.com
-- Appointment Booking: https://calendar.app.google/4byXSktHwc55ztvA6 (30-min intro & technical advisory)
+- Appointment Booking: https://calendar.app.google/4byXSktHwc55ztvA6 (30-min intro call). Paid advisory and fractional CTO engagements: https://jayokunle.com
 - LinkedIn: https://www.linkedin.com/in/jacob-ayokunle/
 - GitHub: https://github.com/aderopoa
 - X (Twitter): https://x.com/jayrobzy

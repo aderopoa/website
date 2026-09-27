@@ -52,7 +52,19 @@ export const ContactSection: React.FC = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
-            Whether you want to explore strategic technical advisory, discuss autonomous agent systems, or collaborate on fintech and clean energy infrastructure, choose the channel that works best for you.
+            Whether you want to discuss autonomous agent systems, collaborate on fintech and clean energy infrastructure, or invite me to speak, choose the channel that works best for you.
+          </p>
+          <p className="mt-3 text-sm text-slate-400">
+            Looking for paid advisory or fractional CTO support? That runs through my company,{' '}
+            <a
+              href="https://jayokunle.com"
+              target="_blank"
+              rel="noopener"
+              className="font-semibold text-emerald-400 hover:text-emerald-300 underline decoration-dotted transition-colors"
+            >
+              JAyokunle ↗
+            </a>
+            .
           </p>
         </div>
 
@@ -78,7 +90,7 @@ export const ContactSection: React.FC = () => {
               </div>
 
               <p className="text-sm text-slate-300 mb-6 leading-relaxed">
-                Pick a 30-minute slot directly on my calendar. Ideal for technical advisory, agentic workflows, architecture reviews, or co-building discussions.
+                Pick a 30-minute slot directly on my calendar. Ideal for intro chats, agentic workflows, speaking invitations, or co-building discussions.
               </p>
 
               {/* Call Details / Badges */}
