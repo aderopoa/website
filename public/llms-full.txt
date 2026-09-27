@@ -20,8 +20,7 @@ Jacob Ayokunle is a technology founder, former CTO, and agentic systems architec
 In the modern AI-native era, Jacob specializes in **Agentic Engineering**: designing and supervising autonomous agentic loops, multi-agent swarms (LangGraph, MCP), reasoning-model workflows across major providers, and resilient self-healing production systems.
 
 ## Availability
-- Open to strategic and technical advisory engagements.
-- Open to fractional CTO engagements.
+- Paid strategic/technical advisory and fractional CTO engagements are offered through JAyokunle (https://jayokunle.com), not via this personal site.
 - Open to co-building in AI and fintech.
 - Available for speaking on agentic systems.
 - Currently Senior Software Engineer at Atmen Solutions GmbH (Munich).
@@ -117,7 +116,7 @@ In the modern AI-native era, Jacob specializes in **Agentic Engineering**: desig
 
 ## Contact & Appointment Booking
 - Email: jacob@ayokunle.com
-- Appointment Booking: https://calendar.app.google/4byXSktHwc55ztvA6 (30-minute intro & technical advisory call with direct Google Calendar sync)
+- Appointment Booking: https://calendar.app.google/4byXSktHwc55ztvA6 (30-minute intro call with direct Google Calendar sync). For paid advisory or fractional CTO work, use https://jayokunle.com
 - LinkedIn: https://www.linkedin.com/in/jacob-ayokunle/
 - GitHub: https://github.com/aderopoa
 - X (Twitter): https://x.com/jayrobzy

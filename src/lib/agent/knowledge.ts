@@ -247,6 +247,9 @@ The combination shows up across all four ventures — Golang and Kubernetes at I
       'hire',
       'hiring',
       'advisory',
+      'fractional',
+      'consulting',
+      'consultant',
       'contact',
       'email',
       'linkedin',
@@ -255,10 +258,12 @@ The combination shows up across all four ventures — Golang and Kubernetes at I
     text: `**Location & Availability:**
 - **Location:** Augsburg & Munich, Bavaria, Germany (hybrid/remote).
 - **Languages:** English (Native / C2), German (Professional / B1).
-- **Availability:** Open to strategic advisory, technical co-founding in AI & Fintech, and speaking/collaborating on Agentic AI systems.
+- **Availability:** Open to technical co-founding in AI & Fintech, and speaking/collaborating on Agentic AI systems.
+- **Paid advisory & fractional CTO:** Offered through Jacob's company, **JAyokunle** — see [jayokunle.com](https://jayokunle.com).
 - **Direct Email:** ${CONTACT_EMAIL}`,
     links: [
       { label: 'Send Email', url: `mailto:${CONTACT_EMAIL}` },
+      { label: 'JAyokunle (advisory)', url: 'https://jayokunle.com' },
       { label: 'LinkedIn Profile', url: 'https://www.linkedin.com/in/jacob-ayokunle/' },
     ],
   },
@@ -282,10 +287,11 @@ The combination shows up across all four ventures — Golang and Kubernetes at I
       'speak with jacob',
       'talk to jacob',
     ],
-    text: `You can schedule a **30-minute introductory or technical advisory call** directly on Jacob's Google Calendar:
+    text: `You can schedule a **30-minute introductory call** directly on Jacob's Google Calendar:
 
-- **Key Topics:** Autonomous Agentic AI Systems, European SEPA Instant Fintech Rails (GetBlitz), Clean Fuel Mass-Balance RegTech (Atmen), or Fractional CTO Advisory.
+- **Key Topics:** Autonomous Agentic AI Systems, European SEPA Instant Fintech Rails (GetBlitz), Clean Fuel Mass-Balance RegTech (Atmen), speaking, or co-building.
 - **Format:** 30-minute Google Meet video session with automatic timezone conversion and instant confirmation.
+- **Paid advisory or fractional CTO work:** go through JAyokunle at [jayokunle.com](https://jayokunle.com).
 
 Booking link: ${BOOKING_URL}`,
     links: [
