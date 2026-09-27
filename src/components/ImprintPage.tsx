@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { ArrowLeft, Building2, Mail, Phone, MapPin, Shield, Scale, ExternalLink, Lock } from 'lucide-react';
+import { ArrowLeft, User, Mail, Phone, MapPin, Shield, Scale, ExternalLink, Lock } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 
 interface ImprintPageProps {
@@ -14,8 +14,8 @@ export const ImprintPage: React.FC<ImprintPageProps> = ({ onBack }) => {
   return (
     <div className="min-h-screen py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <Helmet defer={false}>
-        <title>Imprint / Impressum | Jacob Ayokunle • JAyokunle Enterprise UG</title>
-        <meta name="description" content="Legal notice and imprint (Impressum) for Jacob Ayokunle and JAyokunle Enterprise UG (haftungsbeschränkt), Augsburg, Germany." />
+        <title>Imprint / Impressum | Jacob Ayokunle</title>
+        <meta name="description" content="Legal notice and imprint (Impressum) for ayokunle.com, the personal website of Jacob Ayokunle, Augsburg, Germany." />
       </Helmet>
 
       {/* Back Button */}
@@ -42,18 +42,18 @@ export const ImprintPage: React.FC<ImprintPageProps> = ({ onBack }) => {
       </div>
 
       <div className="space-y-10 text-slate-700 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
-        {/* Company Entity Details */}
+        {/* Site Operator Details */}
         <section className="rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-sm">
           <div className="flex items-center gap-3 mb-4 text-slate-900 dark:text-white">
             <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-500">
-              <Building2 size={20} />
+              <User size={20} />
             </div>
-            <h2 className="text-xl font-bold">Company Information (Angaben gemäß § 5 DDG)</h2>
+            <h2 className="text-xl font-bold">Site Operator (Angaben gemäß § 5 DDG)</h2>
           </div>
 
           <div className="space-y-2 text-slate-600 dark:text-slate-300">
             <p className="font-bold text-slate-900 dark:text-white text-base sm:text-lg">
-              JAyokunle Enterprise UG (haftungsbeschränkt)
+              Jacob Ayokunle
             </p>
             <p className="flex items-start gap-2">
               <MapPin size={16} className="text-emerald-500 shrink-0 mt-1" />
@@ -63,15 +63,20 @@ export const ImprintPage: React.FC<ImprintPageProps> = ({ onBack }) => {
                 Germany
               </span>
             </p>
-            <p>Registergericht: Amtsgericht Augsburg</p>
-            <p>Handelsregister: HRB 40780</p>
           </div>
 
-          <div className="mt-6 pt-6 border-t border-slate-100 dark:border-slate-800 space-y-2">
-            <h3 className="font-semibold text-slate-900 dark:text-white">
-              Represented by / Vertreten durch:
-            </h3>
-            <p>Jacob Ayokunle (Managing Director / Geschäftsführer)</p>
+          <div className="mt-6 pt-6 border-t border-slate-100 dark:border-slate-800 space-y-2 text-slate-600 dark:text-slate-300">
+            <p>
+              This is a personal website operated by Jacob Ayokunle as a private individual. It is not a
+              company website. For JAyokunle and its commercial services, please visit{' '}
+              <a
+                href="https://jayokunle.com"
+                className="text-emerald-600 dark:text-emerald-400 hover:underline font-medium"
+              >
+                jayokunle.com
+              </a>
+              .
+            </p>
           </div>
         </section>
 
@@ -129,8 +134,7 @@ export const ImprintPage: React.FC<ImprintPageProps> = ({ onBack }) => {
 
           <p className="text-slate-600 dark:text-slate-300">
             Jacob Ayokunle<br />
-            JAyokunle Enterprise UG (haftungsbeschränkt)<br />
-            Augsburg, Germany
+            Address as above
           </p>
         </section>
 

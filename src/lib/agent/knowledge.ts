@@ -34,6 +34,7 @@ export const KNOWLEDGE_ENTRIES: KnowledgeEntry[] = [
 - **Ventures:** Founder of **Sprachflow** (AI-operated German TELC B1 exam preparation, 5,000+ exam practices monthly, human review on exam-critical paths) and **GetBlitz** (open-source self-hosted SEPA Instant payment gateway).
 - **Executive Leadership:** CTO & Co-Founder (2022–2024) of **Indicina**, where he directed ML credit scoring (-20% NPLs) and managed multiple cross-functional engineering teams.
 - **Current Role:** Senior Software Engineer at **Atmen Solutions**, engineering dynamic multi-stage emissions tracking and AI mass-balance carbon accounting.
+- **Company:** Managing Director of **JAyokunle** — company matters are handled at [jayokunle.com](https://jayokunle.com), separate from this personal site.
 
 To explore deeper, pick one of the suggestions below or email Jacob directly at ${CONTACT_EMAIL}.`,
     links: [
