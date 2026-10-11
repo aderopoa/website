@@ -36,7 +36,7 @@ export const ContactSection: React.FC = () => {
       {/* Anchor for direct booking navigation */}
       <div id="booking" className="scroll-mt-24" />
 
-      <div className="rounded-3xl p-6 sm:p-12 lg:p-14 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-white border border-slate-800 shadow-2xl relative overflow-hidden">
+      <div className="rounded-3xl p-6 sm:p-12 lg:p-14 bg-linear-to-br from-slate-900 via-slate-950 to-slate-900 text-white border border-slate-800 shadow-2xl relative overflow-hidden">
         {/* Glow orb */}
         <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-emerald-500/15 rounded-full blur-3xl pointer-events-none" />
 
@@ -116,7 +116,7 @@ export const ContactSection: React.FC = () => {
                 href={GOOGLE_CALENDAR_SHORT_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl font-semibold text-white bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 shadow-md shadow-emerald-950/50 transition-all hover:scale-[1.01] active:scale-[0.99]"
+                className="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl font-semibold text-white bg-linear-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 shadow-md shadow-emerald-950/50 transition-all hover:scale-[1.01] active:scale-[0.99]"
               >
                 <Calendar size={18} />
                 <span>Book an Appointment</span>

@@ -18,7 +18,7 @@ interface PrivacyPageProps {
 }
 
 const CARD_CLASS =
-  'rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-sm';
+  'rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-xs';
 const LINK_CLASS = 'text-emerald-600 dark:text-emerald-400 hover:underline font-medium';
 
 interface SectionProps {

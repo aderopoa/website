@@ -36,7 +36,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenImprint, onOpenPrivacy }) 
             <span className="font-bold text-slate-900 dark:text-white text-base">
               Jacob Ayokunle
             </span>
-            <span className="px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-500/10 dark:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
+            <span className="px-2 py-0.5 rounded-sm text-[10px] font-semibold bg-emerald-500/10 dark:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
               Agentic Engineer
             </span>
           </div>

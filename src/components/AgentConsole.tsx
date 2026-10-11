@@ -260,7 +260,7 @@ export const AgentConsole: React.FC = () => {
 
             <div className="flex shrink-0 items-center gap-2">
               <span
-                className={`hidden sm:inline-flex items-center gap-1.5 rounded border px-2 py-0.5 font-mono text-[11px] ${
+                className={`hidden sm:inline-flex items-center gap-1.5 rounded-sm border px-2 py-0.5 font-mono text-[11px] ${
                   isLive
                     ? 'border-emerald-800/50 bg-emerald-950/60 text-emerald-400'
                     : 'border-slate-700/60 bg-slate-900 text-slate-400'
@@ -278,7 +278,7 @@ export const AgentConsole: React.FC = () => {
                 onClick={handleReset}
                 aria-label="Reset conversation"
                 title="Reset conversation"
-                className="rounded p-1 text-slate-400 transition-colors hover:bg-slate-800 hover:text-white"
+                className="rounded-sm p-1 text-slate-400 transition-colors hover:bg-slate-800 hover:text-white"
               >
                 <RotateCcw size={14} />
               </button>
@@ -296,7 +296,7 @@ export const AgentConsole: React.FC = () => {
               if (message.role === 'user') {
                 return (
                   <div key={message.id} className="flex flex-col items-end">
-                    <div className="max-w-[85%] min-w-0 break-words rounded-2xl bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white shadow-md sm:max-w-[75%] sm:text-base">
+                    <div className="max-w-[85%] min-w-0 wrap-break-word rounded-2xl bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white shadow-md sm:max-w-[75%] sm:text-base">
                       {text}
                     </div>
                   </div>
@@ -366,7 +366,7 @@ export const AgentConsole: React.FC = () => {
             {notice && (
               <div className="flex w-fit max-w-full items-start gap-2 rounded-xl border border-amber-500/30 bg-amber-950/40 p-3 text-xs text-amber-300">
                 <AlertTriangle size={14} className="mt-0.5 shrink-0" />
-                <span className="min-w-0 break-words">{notice}</span>
+                <span className="min-w-0 wrap-break-word">{notice}</span>
               </div>
             )}
           </div>
@@ -408,7 +408,7 @@ export const AgentConsole: React.FC = () => {
                 onChange={(event) => setInput(event.target.value)}
                 aria-label="Ask a question about Jacob's work"
                 placeholder="Ask about Sprachflow, GetBlitz, Atmen, Indicina, or Jacob's stack…"
-                className="min-w-0 flex-1 rounded-xl border border-slate-700/80 bg-slate-900 px-4 py-2.5 text-sm text-slate-100 transition-colors placeholder:text-slate-500 focus:border-emerald-500 focus:outline-none sm:text-base"
+                className="min-w-0 flex-1 rounded-xl border border-slate-700/80 bg-slate-900 px-4 py-2.5 text-sm text-slate-100 transition-colors placeholder:text-slate-500 focus:border-emerald-500 focus:outline-hidden sm:text-base"
               />
               <button
                 type="submit"

@@ -19,14 +19,14 @@ export const MetricsRibbon: React.FC = () => {
               key={metric.id}
               className={`p-4 rounded-2xl flex flex-col items-center text-center transition-all duration-300 hover:-translate-y-1 ${
                 metric.highlight
-                  ? 'bg-gradient-to-b from-emerald-500/10 to-transparent dark:from-emerald-500/15 border border-emerald-500/30'
-                  : 'bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-800/70 shadow-sm'
+                  ? 'bg-linear-to-b from-emerald-500/10 to-transparent dark:from-emerald-500/15 border border-emerald-500/30'
+                  : 'bg-white dark:bg-slate-900/60 border border-slate-200/70 dark:border-slate-800/70 shadow-xs'
               }`}
             >
               <div
                 className={`text-2xl sm:text-3xl lg:text-4xl font-black mb-1 tracking-tight whitespace-nowrap ${
                   metric.highlight
-                    ? 'bg-gradient-to-r from-emerald-600 to-cyan-600 dark:from-emerald-400 dark:to-cyan-400 bg-clip-text text-transparent'
+                    ? 'bg-linear-to-r from-emerald-600 to-cyan-600 dark:from-emerald-400 dark:to-cyan-400 bg-clip-text text-transparent'
                     : 'text-slate-900 dark:text-white'
                 }`}
               >
