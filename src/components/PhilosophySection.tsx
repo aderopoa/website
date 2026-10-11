@@ -66,7 +66,7 @@ export const PhilosophySection: React.FC = () => {
           {pillars.map((p, idx) => (
             <div
               key={idx}
-              className="rounded-3xl p-7 sm:p-8 bg-white dark:bg-slate-900/70 border border-slate-200/80 dark:border-slate-800/80 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between"
+              className="rounded-3xl p-7 sm:p-8 bg-white dark:bg-slate-900/70 border border-slate-200/80 dark:border-slate-800/80 shadow-xs hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between"
             >
               <div>
                 <div className="p-3.5 rounded-2xl bg-slate-50 dark:bg-slate-800/90 w-fit mb-6 border border-slate-200 dark:border-slate-700">

@@ -1,6 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter Variable', Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 
 @layer base {
   html {
@@ -10,7 +15,7 @@
   }
 
   :focus-visible {
-    outline: 2px solid theme('colors.emerald.500');
+    outline: 2px solid var(--color-emerald-500);
     outline-offset: 2px;
   }
 }

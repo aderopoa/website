@@ -14,12 +14,12 @@ export const Hero: React.FC = () => {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center pt-28 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Ambient background glow effects */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[350px] bg-gradient-to-tr from-emerald-500/20 via-cyan-500/15 to-indigo-500/10 dark:from-emerald-500/25 dark:via-cyan-500/15 dark:to-indigo-500/10 blur-[120px] pointer-events-none -z-10 rounded-full" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[350px] bg-linear-to-tr from-emerald-500/20 via-cyan-500/15 to-indigo-500/10 dark:from-emerald-500/25 dark:via-cyan-500/15 dark:to-indigo-500/10 blur-[120px] pointer-events-none -z-10 rounded-full" />
       <div className="absolute bottom-10 right-10 w-[300px] h-[300px] bg-indigo-500/10 blur-[100px] pointer-events-none -z-10 rounded-full" />
 
       <div className="max-w-5xl mx-auto text-center flex flex-col items-center">
         {/* Status Badge */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 dark:bg-emerald-500/15 border border-emerald-500/25 text-emerald-700 dark:text-emerald-300 text-xs sm:text-sm font-medium mb-8 backdrop-blur-md animate-fade-in shadow-sm">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 dark:bg-emerald-500/15 border border-emerald-500/25 text-emerald-700 dark:text-emerald-300 text-xs sm:text-sm font-medium mb-8 backdrop-blur-md animate-fade-in shadow-xs">
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
@@ -34,7 +34,7 @@ export const Hero: React.FC = () => {
 
         {/* Avatar with Glow Ring */}
         <div className="relative mb-8 group">
-          <div className="absolute -inset-1.5 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 rounded-full blur-md opacity-75 group-hover:opacity-100 transition duration-500 group-hover:duration-200" />
+          <div className="absolute -inset-1.5 bg-linear-to-r from-emerald-500 via-cyan-500 to-indigo-500 rounded-full blur-md opacity-75 group-hover:opacity-100 transition duration-500 group-hover:duration-200" />
           <div className="relative w-32 h-32 sm:w-36 sm:h-36 rounded-full p-1 bg-white dark:bg-slate-950 shadow-2xl overflow-hidden border-2 border-slate-200/60 dark:border-slate-800">
             <img
               src="/images/avatar-320.webp"
@@ -60,7 +60,7 @@ export const Hero: React.FC = () => {
         </h1>
 
         {/* Tagline / Subtitle */}
-        <div className="text-xl sm:text-2xl lg:text-3xl font-semibold bg-gradient-to-r from-emerald-600 via-cyan-600 to-indigo-600 dark:from-emerald-400 dark:via-cyan-300 dark:to-indigo-300 bg-clip-text text-transparent mb-6">
+        <div className="text-xl sm:text-2xl lg:text-3xl font-semibold bg-linear-to-r from-emerald-600 via-cyan-600 to-indigo-600 dark:from-emerald-400 dark:via-cyan-300 dark:to-indigo-300 bg-clip-text text-transparent mb-6">
           Agentic Engineer • Tech Founder • Systems Architect
         </div>
 

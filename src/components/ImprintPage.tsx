@@ -43,7 +43,7 @@ export const ImprintPage: React.FC<ImprintPageProps> = ({ onBack }) => {
 
       <div className="space-y-10 text-slate-700 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
         {/* Site Operator Details */}
-        <section className="rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-sm">
+        <section className="rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
           <div className="flex items-center gap-3 mb-4 text-slate-900 dark:text-white">
             <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-500">
               <User size={20} />
@@ -81,7 +81,7 @@ export const ImprintPage: React.FC<ImprintPageProps> = ({ onBack }) => {
         </section>
 
         {/* Contact Information */}
-        <section className="rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-sm">
+        <section className="rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
           <div className="flex items-center gap-3 mb-4 text-slate-900 dark:text-white">
             <div className="p-2 rounded-xl bg-cyan-500/10 text-cyan-500">
               <Mail size={20} />
@@ -124,7 +124,7 @@ export const ImprintPage: React.FC<ImprintPageProps> = ({ onBack }) => {
         </section>
 
         {/* Responsible for Content */}
-        <section className="rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-sm">
+        <section className="rounded-3xl p-6 sm:p-8 bg-white dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800/80 shadow-xs">
           <div className="flex items-center gap-3 mb-4 text-slate-900 dark:text-white">
             <div className="p-2 rounded-xl bg-indigo-500/10 text-indigo-500">
               <Shield size={20} />

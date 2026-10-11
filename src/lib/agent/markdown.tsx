@@ -38,13 +38,13 @@ const components: Components = {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-emerald-400 underline decoration-emerald-500/40 underline-offset-2 hover:text-emerald-300 hover:decoration-emerald-400 break-words"
+      className="text-emerald-400 underline decoration-emerald-500/40 underline-offset-2 hover:text-emerald-300 hover:decoration-emerald-400 wrap-break-word"
     >
       {children}
     </a>
   ),
   code: ({ children }) => (
-    <code className="rounded bg-slate-950/80 px-1.5 py-0.5 font-mono text-[0.85em] text-emerald-300 break-words">
+    <code className="rounded-sm bg-slate-950/80 px-1.5 py-0.5 font-mono text-[0.85em] text-emerald-300 wrap-break-word">
       {children}
     </code>
   ),
@@ -69,7 +69,7 @@ interface MarkdownProps {
 }
 
 export const Markdown: React.FC<MarkdownProps> = ({ children }) => (
-  <div className="min-w-0 space-y-2 break-words text-slate-200">
+  <div className="min-w-0 space-y-2 wrap-break-word text-slate-200">
     <ReactMarkdown components={components}>{autolink(children)}</ReactMarkdown>
   </div>
 );

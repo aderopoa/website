@@ -101,10 +101,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
                 onNavigateHome();
               }
             }}
-            className="flex items-center gap-3 group focus:outline-none"
+            className="flex items-center gap-3 group focus:outline-hidden"
           >
             <div className="relative">
-              <div className="w-10 h-10 rounded-xl overflow-hidden border border-emerald-500/30 dark:border-emerald-400/40 p-0.5 bg-gradient-to-br from-emerald-500/20 to-cyan-500/20 shadow-sm transition-transform duration-300 group-hover:scale-105">
+              <div className="w-10 h-10 rounded-xl overflow-hidden border border-emerald-500/30 dark:border-emerald-400/40 p-0.5 bg-linear-to-br from-emerald-500/20 to-cyan-500/20 shadow-xs transition-transform duration-300 group-hover:scale-105">
                 <img
                   src="/images/avatar-96.webp"
                   width={40}
@@ -141,7 +141,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
               >
                 {link.name}
                 {link.badge && (
-                  <span className="px-1.5 py-0.5 rounded text-[10px] font-semibold bg-emerald-500/10 dark:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                  <span className="px-1.5 py-0.5 rounded-sm text-[10px] font-semibold bg-emerald-500/10 dark:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
                     {link.badge}
                   </span>
                 )}
@@ -169,7 +169,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
                 e.preventDefault();
                 handleLinkClick('#booking');
               }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 shadow-sm shadow-emerald-500/20 transition-all hover:scale-[1.02] active:scale-[0.98]"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-white bg-linear-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 shadow-xs shadow-emerald-500/20 transition-all hover:scale-[1.02] active:scale-[0.98]"
             >
               <Calendar size={15} />
               <span>Book a Call</span>
@@ -192,7 +192,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none"
+              className="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-hidden"
               aria-label="Toggle navigation menu"
               aria-expanded={mobileMenuOpen}
               aria-controls="mobile-menu"
@@ -222,7 +222,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
             >
               <span>{link.name}</span>
               {link.badge && (
-                <span className="px-2 py-0.5 rounded text-xs font-semibold bg-emerald-500/20 text-emerald-400">
+                <span className="px-2 py-0.5 rounded-sm text-xs font-semibold bg-emerald-500/20 text-emerald-400">
                   {link.badge}
                 </span>
               )}
@@ -235,7 +235,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigateHome }) => {
                 e.preventDefault();
                 handleLinkClick('#booking');
               }}
-              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-base font-semibold text-white bg-gradient-to-r from-emerald-600 to-cyan-600 shadow-md"
+              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-base font-semibold text-white bg-linear-to-r from-emerald-600 to-cyan-600 shadow-md"
             >
               <Calendar size={18} />
               <span>Book a Call</span>
